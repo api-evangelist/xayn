@@ -1,0 +1,51 @@
+generated: '2026-07-21'
+method: searched
+source: npm registry, crates.io, pub.dev, PyPI, github.com/xaynetwork
+notes: All first-party Xayn packages are legacy artifacts of the pre-2024 privacy
+  AI era (Xaynet federated learning, Xayn discovery/search SDKs). The company rebranded
+  to Noxtua AG (legal AI) in 2024, archived its entire GitHub organization (26 repos,
+  org renamed "Noxtua"), and ships no maintained public packages or SDKs today. PyPI
+  has no first-party packages (xaynet/xayn both 404).
+packages:
+- language: typescript
+  registry: npm
+  name: xayn_ts_sdk
+  url: https://www.npmjs.com/package/xayn_ts_sdk
+  install: npm install xayn_ts_sdk
+  official: true
+  status: discontinued
+  latest_version: 0.0.1
+  last_published: '2022-12-01'
+  description: Xayn SDK (beta) for the former Xayn discovery engine; repo github.com/xaynetwork/xayn_ts_sdk
+    no longer public.
+- language: rust
+  registry: crates.io
+  name: xaynet
+  url: https://crates.io/crates/xaynet
+  install: cargo add xaynet
+  official: true
+  status: discontinued
+  latest_version: 0.11.0
+  description: Xaynet privacy-preserving federated machine learning framework (repo
+    github.com/xaynetwork/xaynet, archived 2022).
+- language: rust
+  registry: crates.io
+  name: xaynet-sdk
+  url: https://crates.io/crates/xaynet-sdk
+  install: cargo add xaynet-sdk
+  official: true
+  status: discontinued
+  latest_version: 0.1.0
+  description: SDK crate of the archived Xaynet federated learning framework (sibling
+    crates xaynet-core, xaynet-server, xaynet-client, xaynet-mobile, xaynet-macros).
+- language: dart
+  registry: pub.dev
+  name: xayn_swipe_it
+  url: https://pub.dev/packages/xayn_swipe_it
+  install: flutter pub add xayn_swipe_it
+  official: true
+  status: discontinued
+  latest_version: 1.0.4
+  last_published: '2022-03-23'
+  description: Flutter swipe widget from the Xayn app era (UI component, not an API
+    client); repo github.com/xaynetwork/xayn_swipe_it archived.

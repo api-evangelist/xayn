@@ -1,0 +1,29 @@
+generated: '2026-07-21'
+method: searched
+probe: true
+url: https://trust.noxtua.com/
+platform: vanta
+certifications: []
+notes: Live Vanta-hosted trust center titled "Noxtua Trust Center" (assets served
+  from assets.vanta.com; meta keywords Trust, Security, Compliance, Automation).
+  The certification list renders client-side and could not be extracted from static
+  HTML, so no named certifications are asserted here. The companion security page
+  (noxtua.com/security) states the platform is independently audited against international
+  standards for information security, data protection, cloud compliance, and AI
+  governance, claims GDPR and EU AI Act alignment plus German professional secrecy
+  compliance (Section 43e BRAO, Section 203 StGB), and runs exclusively on European
+  infrastructure (IONOS and Deutsche Telekom T Cloud, both BSI C5-certified providers).
+evidence:
+- source: https://trust.noxtua.com/
+  kind: trust-center
+  keywords:
+  - trust
+  - security
+  - compliance
+- source: https://www.noxtua.com/security
+  kind: security-page
+  keywords:
+  - independent audits
+  - gdpr
+  - eu ai act
+  - bsi c5 (infrastructure providers)

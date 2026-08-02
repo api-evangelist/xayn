@@ -1,7 +1,27 @@
 aid: xayn
-name: Xayn
-description: Xayn is a company surfaced as a portfolio company of earlybird and added to the API Evangelist
-  network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/xayn.png
+name: Xayn (now Noxtua)
+description: Xayn is a Berlin-based AI company founded in 2017 as XAIN out of research
+  by Dr. Leif-Nissen Lundbaek and Prof. Michael Huth at Oxford and Imperial College
+  London. Rebranded to Xayn in 2020, it built the Xaynet privacy-preserving federated
+  learning framework and a privacy-protecting search and discovery engine. In February
+  2024 the company pivoted to legal AI and rebranded as Noxtua AG (noxtua.com), Europe's
+  sovereign Legal AI for research, document analysis, and drafting, backed by a Series
+  A of EUR 10M (2021, Global Brain/KDDI, with Earlybird) and a Series B of roughly
+  EUR 81M led by legal publisher C.H. Beck. xayn.com is offline and the company publishes
+  no public API or developer portal today; its former open-source SDKs and packages
+  are archived.
 url: https://raw.githubusercontent.com/api-evangelist/xayn/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -9,14 +29,48 @@ x-backed-by:
 - earlybird
 x-tier: stub
 x-tier-reason: portfolio-lead
+x-rebranded-to: noxtua
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
+- Artificial Intelligence
+- Legal Tech
+- Privacy
+- Search
+- Federated Learning
+- Machine Learning
+- Germany
 apis: []
+common:
+- type: Website
+  url: https://www.noxtua.com/
+- type: Blog
+  url: https://www.noxtua.com/company/blog
+- type: GitHubOrganization
+  url: https://github.com/xaynetwork
+- type: PrivacyPolicy
+  url: https://www.noxtua.com/legal/data-privacy
+- type: Support
+  url: https://www.noxtua.com/faq
+- type: TrustCenter
+  url: security/xayn-trust-center.yml
+- type: Compliance
+  url: https://trust.noxtua.com/
+- type: Packages
+  url: packages/xayn-packages.yml
+- type: DomainSecurity
+  url: security/xayn-domain-security.yml
+- type: LLMsTxt
+  url: llms/xayn-llms.txt
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-21'
+  status: enriched
+  artifacts_added: 5
+  pass: local-v1
