@@ -34,6 +34,9 @@ description: Xayn is a Berlin-based AI company founded in 2017 as XAIN out of re
   no public API or developer portal today; its former open-source SDKs and packages
   are archived.
 url: https://raw.githubusercontent.com/api-evangelist/xayn/refs/heads/main/apis.yml
+x-api-posture: no-product-api
+x-api-posture-basis: observed
+x-api-posture-note: "Beck. xayn.com is offline and the company publishes no public API or developer portal today; its former open-source SDKs and packages are archived."
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
