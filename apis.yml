@@ -54,7 +54,7 @@ tags:
 - Privacy
 - Search
 - Federated Learning
-- Machine-Learning
+- Machine Learning
 - Germany
 tags_raw:
 - Company
@@ -65,6 +65,7 @@ tags_raw:
 - Federated Learning
 - Machine Learning
 - Germany
+- Machine-Learning
 apis: []
 common:
 - type: Website
